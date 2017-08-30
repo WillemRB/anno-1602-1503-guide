@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.capsu.org	TRUE	/	FALSE	1999999999	X-Mapping-eacdndmj	26BE3F932C93D4FE5F5DD9385574D16B
-
