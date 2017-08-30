@@ -1,0 +1,12 @@
+HTTrack3.43-9+htsswf+htsjava launched on Mon, 31 May 2010 11:50:23 at http://www.capsu.org/1503/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "en, en, *" http://www.capsu.org/1503/ -O1 "C:\My Web Sites\1503 guide" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:50:23	Info: 	Note: due to www.capsu.org remote robots.txt rules, links begining with these path will be forbidden: /temp/ (see in the options to disable this)
+
+HTTrack Website Copier/3.43-9 mirror complete in 43 seconds : 77 links scanned, 76 files written (1121937 bytes overall) [1142291 bytes received at 26564 bytes/sec], 15.4 requests per connection
+(No errors, 0 warnings, 1 messages)
