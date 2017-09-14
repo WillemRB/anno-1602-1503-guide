@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <title>{{ page.title }} - Anno 1503/1503 AD FAQ/Strategy Guide</title>
+    <title>{{ page.title | escape }} - Anno 1503/1503 AD FAQ/Strategy Guide</title>
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="{{ page.keywords | array_to_sentence_string }}" />
     <meta name="author" content="Tim Howgego" />
@@ -18,13 +18,13 @@
             <a href="{{ site.url }}" class="h1l" title="Homepage.">Home</a> // <a href="index.html" class="h1l" title="Anno 1503/1503 AD FAQ contents.">Anno 1503/1503 AD FAQ/Strategy Guide</a> // <a href="#contents" title="Skip to content, ignoring navigation."
                 class="title">{{ page.title }}</a>
         </h1>
-    </div>
 
-    <!-- 
-    <div id="search">
-        <form id="searchbox"></form>
-    </div> 
-    -->
+        <!-- 
+        <div id="search">
+            <form id="searchbox"></form>
+        </div> 
+        -->
+    </div>
 
     <div class="menu">
         <ul>
