@@ -1,116 +1,77 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+---
+title: Technical Issues
+description: Solutions to common technical problems with the game Anno 1503/1503 AD.
+keywords: ['Anno 1503', '1503 AD', 'technical', 'bug', 'customise', 'options']
+---
 
-<head>
-    <title>Technical Issues - Anno 1503/1503 AD FAQ/Strategy Guide</title>
-    <meta name="description" content="Solutions to common technical problems with the game Anno 1503/1503 AD." />
-    <meta name="keywords" content="Anno 1503, 1503 AD, technical, bug, customise, options" />
-    <meta name="author" content="Tim Howgego" />
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=ISO-8859-1" />
-    <link title="Anno 1503" rel="stylesheet" type="text/css" href="../css/1503.css" />
-    <link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
-    <link rel="shortcut icon" href="favicon.ico" />
-</head>
+<div id="contents" class="content">
 
-<body>
-    <div id="banner">
-        <h1><a href="http://www.capsu.org/" class="h1l" title="Capsu.org homepage.">capsu.org</a> // <a href="index.html" class="h1l" title="Anno 1503/1503 AD FAQ contents.">Anno 1503/1503 AD FAQ/Strategy Guide</a> // <a href="#contents" title="Skip to content, ignoring navigation."
-                class="title">Technical Issues</a></h1>
+    <p>Many technical FAQs are covered here: <a href="http://www.anno1503.com/english/support/" title="External link: Official Anno 1503 website.">http://www.anno1503.com/english/support/</a> . While the solutions presented here are reported to work,
+        I cannot be held responsible for them having unintended consequences. On this page:</p>
 
-        <div id="search">
-            <form id="searchbox" /></form>
-        </div>
-    </div>
+    <dl>
+        <dd>10.1 <a title="Jump to section." href="#tec_1">How many bugs are there?</a></dd>
+        <dd>10.2 <a title="Jump to section." href="#tec_2">How do I take a screenshot?</a></dd>
+        <dd>10.3 <a title="Jump to section." href="#tec_3">Can I stop the statue video playing?</a></dd>
+        <dd>10.4 <a title="Jump to section." href="#tec_4">Can I play without the CD?</a></dd>
+        <dd>10.5 <a title="Jump to section." href="#tec_5">Why aren't sounds played at non-normal game speed?</a></dd>
+        <dd>10.6 <a title="Jump to section." href="#tec_6">Can I turn auto-save off?</a></dd>
+        <dd>10.7 <a title="Jump to section." href="#tec_7">Can I play save-games from other language versions?</a></dd>
+        <dd>10.8 <a title="Jump to section." href="#tec_8">Can I copy or rename save games?</a></dd>
+        <dd>10.9 <a title="Jump to section." href="#tec_9">Why don't the Moors have music?</a></dd>
+        <dd>10.10 <a title="Jump to section." href="#tec_10">All ships and AI players disappeared. What happened?</a></dd>
+    </dl>
 
-    <div class="menu">
-        <ul>
-            <li><a href="index.html" class="menul" title="Anno 1503/1503 AD FAQ contents. Accesskey c." accesskey="c" rel="contents"><span class="u">C</span>ontents</a> &middot;</li>
-            <li><a href="1.html" class="menul" title="Preface: Credits, notes. Accesskey p." accesskey="p"><span class="u">P</span>reface</a> &middot;</li>
-            <li><a href="2.html" class="menul" title="Introduction: Game information, background, patches. Accesskey i." accesskey="i"><span class="u">I</span>ntroduction</a> &middot;</li>
-            <li><a href="3.html" class="menul" title="Getting Started: Concepts, strategies, tutorial. Accesskey n." accesskey="n">Getti<span class="u">n</span>g Started</a> &middot;</li>
-            <li><a href="4.html" class="menul" title="Gameplay: Interface, resources, colonies, trade, ships, military. Accesskey g." accesskey="g"><span class="u">G</span>ameplay</a> &middot;</li>
-            <li><a href="5.html" class="menul" title="Strategies: Planning, management, trade, military. Accesskey r." accesskey="r">St<span class="u">r</span>ategies</a> &middot;</li>
-            <li><a href="6.html" class="menul" title="Campaign: Walkthrough and strategy. Accesskey m." accesskey="m">Ca<span class="u">m</span>paign</a> &middot;</li>
-            <li><a href="7.html" class="menul" title="Original Scenarios: Walkthrough and strategy. Accesskey o." accesskey="o"><span class="u">O</span>riginal Scenarios</a> &middot;</li>
-            <li><a href="8.html" class="menul" title="Treasures, Monsters &amp; Pirates Scenarios: Walkthrough and strategy. Accesskey t." accesskey="t"><span class="u">T</span>M&amp;P Scenarios</a> &middot;</li>
-            <li><a href="9.html" class="menul" title="Cheating and Editing: Cheat codes, editors, scenario installation. Accesskey e." accesskey="e">Cheating and <span class="u">E</span>diting</a> &middot;</li>
-            <li>Technical Issues &middot;</li>
-            <li><a href="a.html" class="menul" title="Appendices. Accesskey a." accesskey="a"><span class="u">A</span>ppendices</a></li>
-        </ul>
-    </div>
+    <h3 id="tec_1">10.1 How many bugs are there?</h3>
+    <p>Sir Henry maintained an unofficial bug list, a translation of which can be found here: <a href="http://digilander.libero.it/anno1503/gamedata/bugs/bugs.html" title="External link: Wargamerit.">http://digilander.libero.it/anno1503/gamedata/bugs/bugs.html</a>            . The non-German release version (released with patch 1.04.02) contained more than 70 known or suspected bugs, most of which are either rare (only affect certain players sometimes) or just annoying (rather than fatal). The expansion pack added
+        a few more, including one which greatly increases the amount of Iron Ore deposits on reload. The original German version has many more, including fundamental errors, such as many of the second (play) CDs being corrupted, and a map graphics
+        issue affecting ATI cards. The later issues were thought to be fixed by patches prior to other versions being released. Of course, not *everything* that works differently to the way you expect is a bug: It's not a "bug", it's a "feature"...
+        erm maybe ;-) .</p>
 
-    <div id="contents" class="content">
+    <h3 id="tec_2">10.2 How do I take a screenshot?</h3>
+    <p>Press Shift + S. The image will be stored as a Targa (.TGA) format file, named screen001.tga (where 001 increments with each screenshot), in the main Anno 1503 directory on your hard drive. Targa format is not supported by all image editing packages
+        - many suggest using IfranView, <a href="http://www.irfanview.com/" title="External link: Ifranview.">http://www.irfanview.com/</a> . Ravell warns: "Move them to another folder because when you start a new game the numbering of the screenshots
+        will start at screen001 again, so if there's any older pictures they'll be overwritten." The total number of screenshots in one session seems to be limited to about 30.</p>
 
-        <p>Many technical FAQs are covered here: <a href="http://www.anno1503.com/english/support/" title="External link: Official Anno 1503 website.">http://www.anno1503.com/english/support/</a> . While the solutions presented here are reported to work,
-            I cannot be held responsible for them having unintended consequences. On this page:</p>
+    <h3 id="tec_3">10.3 Can I stop the statue video playing?</h3>
+    <p>Ravell writes: "Copy the folders music and videos from CD2 to the 1503 folder [on your hard drive]. Open up the video folder and rename 1002.bik to _1002.bik . The video won't play anymore (it can't play it from the folder AND it's not loading
+        it from the CD) ...BUT... the screen will go black for a second."</p>
 
-        <dl>
-            <dd>10.1 <a title="Jump to section." href="#tec_1">How many bugs are there?</a></dd>
-            <dd>10.2 <a title="Jump to section." href="#tec_2">How do I take a screenshot?</a></dd>
-            <dd>10.3 <a title="Jump to section." href="#tec_3">Can I stop the statue video playing?</a></dd>
-            <dd>10.4 <a title="Jump to section." href="#tec_4">Can I play without the CD?</a></dd>
-            <dd>10.5 <a title="Jump to section." href="#tec_5">Why aren't sounds played at non-normal game speed?</a></dd>
-            <dd>10.6 <a title="Jump to section." href="#tec_6">Can I turn auto-save off?</a></dd>
-            <dd>10.7 <a title="Jump to section." href="#tec_7">Can I play save-games from other language versions?</a></dd>
-            <dd>10.8 <a title="Jump to section." href="#tec_8">Can I copy or rename save games?</a></dd>
-            <dd>10.9 <a title="Jump to section." href="#tec_9">Why don't the Moors have music?</a></dd>
-            <dd>10.10 <a title="Jump to section." href="#tec_10">All ships and AI players disappeared. What happened?</a></dd>
-        </dl>
+    <h3 id="tec_4">10.4 Can I play without the CD?</h3>
+    <p>Tom Sailor writes: "You can copy the /music and the /video files [directories] to your hard disk [copy the directories into the main game directory on your hard drive]. Then you'll only need the CD to start the game." Bomi notes that this requires
+        at least patch 1.01.</p>
 
-        <h3 id="tec_1">10.1 How many bugs are there?</h3>
-        <p>Sir Henry maintained an unofficial bug list, a translation of which can be found here: <a href="http://digilander.libero.it/anno1503/gamedata/bugs/bugs.html" title="External link: Wargamerit.">http://digilander.libero.it/anno1503/gamedata/bugs/bugs.html</a>            . The non-German release version (released with patch 1.04.02) contained more than 70 known or suspected bugs, most of which are either rare (only affect certain players sometimes) or just annoying (rather than fatal). The expansion pack added
-            a few more, including one which greatly increases the amount of Iron Ore deposits on reload. The original German version has many more, including fundamental errors, such as many of the second (play) CDs being corrupted, and a map graphics
-            issue affecting ATI cards. The later issues were thought to be fixed by patches prior to other versions being released. Of course, not *everything* that works differently to the way you expect is a bug: It's not a "bug", it's a "feature"...
-            erm maybe ;-) .</p>
+    <h3 id="tec_5">10.5 Why aren't sounds played at non-normal game speed?</h3>
+    <p>From Kay Bennemann: "It's intentional that you only hear the ambient sound (swords clashing, people working, etc.) when you play in 'normal' game speed - if you choose different speeds, this sound is muted. And with good reason: While testing
+        the sound playing at different game speeds we decided that it can become quite a nuisance, especially with the 'fast' setting."</p>
 
-        <h3 id="tec_2">10.2 How do I take a screenshot?</h3>
-        <p>Press Shift + S. The image will be stored as a Targa (.TGA) format file, named screen001.tga (where 001 increments with each screenshot), in the main Anno 1503 directory on your hard drive. Targa format is not supported by all image editing packages
-            - many suggest using IfranView, <a href="http://www.irfanview.com/" title="External link: Ifranview.">http://www.irfanview.com/</a> . Ravell warns: "Move them to another folder because when you start a new game the numbering of the screenshots
-            will start at screen001 again, so if there's any older pictures they'll be overwritten." The total number of screenshots in one session seems to be limited to about 30.</p>
+    <h3 id="tec_6">10.6 Can I turn auto-save off?</h3>
+    <p>Yes, from Lothark: "Change the attribute for the file lastgame.sav to read only."</p>
 
-        <h3 id="tec_3">10.3 Can I stop the statue video playing?</h3>
-        <p>Ravell writes: "Copy the folders music and videos from CD2 to the 1503 folder [on your hard drive]. Open up the video folder and rename 1002.bik to _1002.bik . The video won't play anymore (it can't play it from the folder AND it's not loading
-            it from the CD) ...BUT... the screen will go black for a second."</p>
+    <h3 id="tec_7">10.7 Can I play save-games from other language versions?</h3>
+    <p>Yes, there are no restrictions. If you want to change the language version of your game, try replacing file texte.dat with one containing the appropriate translations. HJB notes: "you'll have a nice mix because lots of things are hard coded and
+        the spoken WAVs are still in the previous language".</p>
 
-        <h3 id="tec_4">10.4 Can I play without the CD?</h3>
-        <p>Tom Sailor writes: "You can copy the /music and the /video files [directories] to your hard disk [copy the directories into the main game directory on your hard drive]. Then you'll only need the CD to start the game." Bomi notes that this requires
-            at least patch 1.01.</p>
+    <h3 id="tec_8">10.8 Can I copy or rename save games?</h3>
+    <p>Save games are stored in the folder [Drive/.../Anno 1503]/SaveGame/[Profile] where "Drive/.../Anno 1503" is wherever you choose to install the game, and "Profile" is the name of the player. Files ending in .sav are saved games. "User.dat" appears
+        to contain user preferences. All files except lastgame.sav use 'GUID' names (long hexadecimal strings). In single player mode, these can be renamed to something else and the game will still recognise them. Bomi notes that multiplayer games
+        are expected to need the original GUID name to function. Bomi wrote a tool (in German) to manage save games. It is available here: <a href="http://www.bomibomanns.de/ANNOTools/" title="External link: Bomi.">http://www.bomibomanns.de/ANNOTools/</a>            .</p>
 
-        <h3 id="tec_5">10.5 Why aren't sounds played at non-normal game speed?</h3>
-        <p>From Kay Bennemann: "It's intentional that you only hear the ambient sound (swords clashing, people working, etc.) when you play in 'normal' game speed - if you choose different speeds, this sound is muted. And with good reason: While testing
-            the sound playing at different game speeds we decided that it can become quite a nuisance, especially with the 'fast' setting."</p>
+    <h3 id="tec_9">10.9 Why don't the Moors have music?</h3>
+    <p>It's a bug. From LotharK and Baco: From the install folder, open data/music.dat in a text editor, and find the lines:</p>
+    <div class="box">Path: "races\moorish*"
+        <br />Group: "GROUPE_MAUREN"
+        <br />
+        <br />And change the first line to:
+        <br />
+        <br />Path: "races\moorish\*"</div>
 
-        <h3 id="tec_6">10.6 Can I turn auto-save off?</h3>
-        <p>Yes, from Lothark: "Change the attribute for the file lastgame.sav to read only."</p>
+    <h3 id="tec_10">10.10 All ships and AI players disappeared. What happened?</h3>
+    <p>
+        Don Enrico writes: "The bug appears when a siege tower is built and manned (with crewmen like the ones you use to man cannons and mortars): After saving and re-loading the game, all ships and all computer opponents are gone. There is no way to
+        fix a corrupted savegame." This bug exists only in the expansion.</p>
 
-        <h3 id="tec_7">10.7 Can I play save-games from other language versions?</h3>
-        <p>Yes, there are no restrictions. If you want to change the language version of your game, try replacing file texte.dat with one containing the appropriate translations. HJB notes: "you'll have a nice mix because lots of things are hard coded and
-            the spoken WAVs are still in the previous language".</p>
+</div>
 
-        <h3 id="tec_8">10.8 Can I copy or rename save games?</h3>
-        <p>Save games are stored in the folder [Drive/.../Anno 1503]/SaveGame/[Profile] where "Drive/.../Anno 1503" is wherever you choose to install the game, and "Profile" is the name of the player. Files ending in .sav are saved games. "User.dat" appears
-            to contain user preferences. All files except lastgame.sav use 'GUID' names (long hexadecimal strings). In single player mode, these can be renamed to something else and the game will still recognise them. Bomi notes that multiplayer games
-            are expected to need the original GUID name to function. Bomi wrote a tool (in German) to manage save games. It is available here: <a href="http://www.bomibomanns.de/ANNOTools/" title="External link: Bomi.">http://www.bomibomanns.de/ANNOTools/</a>            .</p>
+<div class="menu"><a href="a.html" class="menul" title="Next: Appendices: Building and industry data, production links and efficiency, military and ship data, research trees." rel="next">Next: Appendices &#62;</a></div>
 
-        <h3 id="tec_9">10.9 Why don't the Moors have music?</h3>
-        <p>It's a bug. From LotharK and Baco: From the install folder, open data/music.dat in a text editor, and find the lines:</p>
-        <div class="box">Path: "races\moorish*"
-            <br />Group: "GROUPE_MAUREN"
-            <br />
-            <br />And change the first line to:
-            <br />
-            <br />Path: "races\moorish\*"</div>
-
-        <h3 id="tec_10">10.10 All ships and AI players disappeared. What happened?</h3>
-        <p>
-            Don Enrico writes: "The bug appears when a siege tower is built and manned (with crewmen like the ones you use to man cannons and mortars): After saving and re-loading the game, all ships and all computer opponents are gone. There is no way to
-            fix a corrupted savegame." This bug exists only in the expansion.</p>
-
-    </div>
-
-    <div class="menu"><a href="a.html" class="menul" title="Next: Appendices: Building and industry data, production links and efficiency, military and ship data, research trees." rel="next">Next: Appendices &#62;</a></div>
-
-    <div id="footer"><a href="1.html#preface_2" title="Legal statement and terms of use.">Copyright and Usage</a></div>
-</body>
-</html>
