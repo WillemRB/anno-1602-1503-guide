@@ -3,24 +3,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <title>{{ page.title }} - Anno 1602/1602 AD FAQ/Strategy Guide</title>
+    <title>{{ page.title | escape }} - Anno 1602/1602 AD FAQ/Strategy Guide</title>
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="{{ page.keywords | array_to_sentence_string }}" />
     <meta name="author" content="Tim Howgego" />
     <meta http-equiv="content-type" content="application/xhtml+xml; charset=ISO-8859-1" />
-    <link title="Anno 1602" rel="stylesheet" type="text/css" href="../css/1602.css" />
-    <link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link title="Anno 1602" rel="stylesheet" type="text/css" href="../assets/1602.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/print.css" media="print" />
+    <link rel="shortcut icon" href="../assets/favicon.ico'" />
 </head>
 
 <body>
     <div id="banner">
-        <h1><a href="http://www.capsu.org/" class="h1l" title="Capsu.org homepage.">capsu.org</a> // <a href="index.html" class="h1l" title="Anno 1602/1602 AD FAQ contents.">Anno 1602/1602 AD FAQ/Strategy Guide</a> // <a href="#contents" title="Skip to content, ignoring navigation."
-                class="title">Preface</a></h1>
+        <h1>
+            <a href="{{ site.url }}" class="h1l" title="Homepage.">Home</a> // <a href="index.html" class="h1l" title="Anno 1602/1602 AD FAQ contents.">Anno 1602/1602 AD FAQ/Strategy Guide</a> // <a href="#contents" title="Skip to content, ignoring navigation."
+                class="title">{{ page.title }}</a>
+        </h1>
 
         <!--
         <div id="search">
-            <form id="searchbox" /></form>
+            <form id="searchbox"></form>
         </div>
         -->
     </div>
