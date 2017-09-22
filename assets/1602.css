@@ -1,8 +1,4 @@
-/* Purple CSS */
-
-
 /* Page */
-
 body {
     margin: 0;
     text-align: left;
@@ -16,9 +12,7 @@ body {
     display: none;
 }
 
-
 /* Title */
-
 h1 {
     float: left;
     font-size: 0.9em;
@@ -71,45 +65,7 @@ a.title:hover {
     text-decoration: underline;
 }
 
-
-/* Search */
-
-#search {
-    text-align: right;
-    padding: 0.6em 0 0.6em 0;
-    margin: 0% 2% 0% 0%;
-    background: none;
-}
-
-#search form {
-    padding: 0;
-    margin: 0;
-}
-
-#search form #sa {
-    background: none;
-    color: #883300;
-    padding: 0 0.1em 0 0.1em;
-    font-size: 0.75em;
-    font-weight: bold;
-    border-top: 1px solid #cccccc;
-    border-left: 1px solid #cccccc;
-    border-bottom: 1px solid #999999;
-    border-right: 1px solid #999999;
-}
-
-#search form #q {
-    border: 1px solid #883300;
-    background: none;
-    color: black;
-    padding: 0;
-    margin: 0;
-    font-size: 0.75em;
-}
-
-
 /* Menu */
-
 .menu {
     clear: both;
     font-size: 0.75em;
@@ -175,9 +131,7 @@ a.menul:hover {
     text-decoration: underline;
 }
 
-
 /* Content */
-
 .content {
     clear: both;
     margin: 1.2em 2% 1.2em 5%;
@@ -237,9 +191,7 @@ a.menul:hover {
     margin: 0.7em 0 0.7em 0;
 }
 
-
 /* Figures and Tables */
-
 .content .box {
     padding: 0.4em 1.2em 0.4em 1.2em;
     margin: 0.4em;
@@ -314,9 +266,7 @@ a.menul:hover {
     text-align: center;
 }
 
-
 /* Lists */
-
 .content ol {
     margin-left: 3%;
 }
